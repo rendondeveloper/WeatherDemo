@@ -1,0 +1,1 @@
+const elevation4 = 4.0;const dimen8 = 8.0;const dimen16 = 16.0;const fonSize30 = 30.0;const fonSize24 = 24.0;const fonSize18 = 18.0;const radiusCorner4 =  4.0;const homeWeatherCardHeight = 300.0;const homeWeatherCardWight = 220.0;const homeWeatherTemperatureHeight = 100.0;

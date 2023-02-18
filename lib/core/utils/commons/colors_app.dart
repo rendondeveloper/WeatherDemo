@@ -1,0 +1,1 @@
+import 'dart:ui';const Color backgroundMinimumTemperature = Color(0xff2196F3);const Color backgroundMaximumTemperature = Color(0xffFF5252);

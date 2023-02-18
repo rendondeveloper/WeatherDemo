@@ -1,3 +1,5 @@
 {
-  "appName": "Weather Demo"
+  "appName": "Weather Demo",
+  "homeWeatherCardTitleMinimumTemperature": "Max",
+  "homeWeatherCardTitleMaximumTemperature": "Min"
 }
