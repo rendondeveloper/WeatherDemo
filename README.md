@@ -1,16 +1,24 @@
-# weatherdemo
+# Weather Demo
 
-A new Flutter project.
+This is a app, to show the weather by the places selected.
 
-## Getting Started
+This project was created using clean architecture + dependency injection.
 
-This project is a starting point for a Flutter application.
+## Used Plugings
+<list>
+  <p>[flutter_riverpod](https://docs.flutter.dev/get-started/codelab)</p>
+  <p>[freezed_annotation](https://pub.dev/packages/freezed_annotation)</p>
+  <p>[http](https://pub.dev/packages/http)</p>
+ </list>
 
-A few resources to get you started if this is your first Flutter project:
+## Video
+<img src="https://user-images.githubusercontent.com/42813444/219974117-d35d27d2-935e-4af4-aa5e-94529e251ee4.webm" width="40%"/>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Steps after clone the project
+<list>
+  <p>1.- Clone de project <b>https://github.com/rendondeveloper/WeatherDemo.git</b></p> 
+  <img src="https://user-images.githubusercontent.com/42813444/219974572-b7091209-2a62-4bc8-9e53-b4884bfb5db1.png" width="20%"/>  
+  <p>3.- Execute on terminal of project <b>flutter gen-l10n</b> to generate strings.</p>
+  <p>4.- Launch app</p>
+</list>
