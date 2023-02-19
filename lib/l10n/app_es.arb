@@ -5,5 +5,6 @@
   "homeWeatherCardTitleCurrentTemperature": "Temp",
   "homeWeatherCardTitleCurrentDate": "Hoy",
   "homeWeatherCardMessageEmptyScreen": "Sigue buscando, cuando encuentres un destino con información del clima la podras ver aquí.",
+  "homeWeatherCardEmptyFuture": "No encontramos predicción del clima para los siguientes días.",
   "homeWeatherInputSearch": "Buscar destino"
 }
