@@ -12,8 +12,11 @@ This project was created using clean architecture + dependency injection.
  </list>
 
 ## Video
+<p>Android</p>
 <img src="https://user-images.githubusercontent.com/42813444/219974117-d35d27d2-935e-4af4-aa5e-94529e251ee4.webm" width="40%"/>
 
+<p>Ios</p>
+<img src="https://user-images.githubusercontent.com/42813444/219976279-82896407-1ffb-4b38-b13d-cb2582e84836.mp4" width="40%"/>
 
 ## Steps after clone the project
 <list>
