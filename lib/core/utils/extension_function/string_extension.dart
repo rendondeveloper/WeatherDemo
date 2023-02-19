@@ -1,0 +1,1 @@
+import 'dart:developer';extension CustomString on String {  void toLog() {    log(this);  }}

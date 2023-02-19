@@ -1,0 +1,1 @@
+class TransportCoordinates{  String longitude, latitude;  TransportCoordinates(this.longitude, this.latitude);}

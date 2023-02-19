@@ -1,0 +1,1 @@
+import 'package:weatherdemo/core/fetch_locations/domain/models_domain/locations_domain.dart';import 'package:weatherdemo/core/utils/base/pair.dart';abstract class FetchDataSources{  Future<Pair<List<LocationDomain>?, Exception?>> fetchLocations(String search);}

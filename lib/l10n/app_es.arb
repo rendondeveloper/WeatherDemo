@@ -1,5 +1,9 @@
 {
   "appName": "Weather Demo",
   "homeWeatherCardTitleMinimumTemperature": "Max",
-  "homeWeatherCardTitleMaximumTemperature": "Min"
+  "homeWeatherCardTitleMaximumTemperature": "Min",
+  "homeWeatherCardTitleCurrentTemperature": "Temp",
+  "homeWeatherCardTitleCurrentDate": "Hoy",
+  "homeWeatherCardMessageEmptyScreen": "Sigue buscando, cuando encuentres un destino con información del clima la podras ver aquí.",
+  "homeWeatherInputSearch": "Buscar destino"
 }

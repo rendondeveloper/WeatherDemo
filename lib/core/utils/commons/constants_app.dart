@@ -1,0 +1,1 @@
+const urlImageEmpty = "https://png.pngitem.com/pimgs/s/19-198243_fog-clipart-windy-symbol-cloudy-weather-symbol-hd.png";

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:weatherdemo/feature/home_weather/framaework/presentation/page/home_weather_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +28,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Container());
+        home: Container(
+          color: Colors.white,
+          child: ProviderScope(child: HomeWeatherPage()),
+        ));
   }
 }

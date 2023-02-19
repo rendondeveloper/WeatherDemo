@@ -1,0 +1,1 @@
+class LocationDomain{  String displayName, latitude, longitude;  LocationDomain(this.displayName, this.latitude, this.longitude);}
