@@ -28,9 +28,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Container(
-          color: Colors.white,
-          child: ProviderScope(child: HomeWeatherPage()),
-        ));
+        home: ProviderScope(child: HomeWeatherPage()));
   }
 }
