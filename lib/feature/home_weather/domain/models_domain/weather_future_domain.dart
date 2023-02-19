@@ -1,0 +1,1 @@
+class WeatherFutureDomain{  String state, description, maximum, minimum;  WeatherFutureDomain(this.state, this.description, this.maximum, this.minimum);}

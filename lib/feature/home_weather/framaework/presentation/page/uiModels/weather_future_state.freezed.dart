@@ -3,7 +3,7 @@
 // ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
-part of 'home_weather_item_state.dart';
+part of 'weather_future_state.dart';
 
 // **************************************************************************
 // FreezedGenerator
@@ -15,35 +15,34 @@ final _privateConstructorUsedError = UnsupportedError(
     'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
-mixin _$HomeWeatherItemState {
+mixin _$WeatherFutureState {
   String get condition => throw _privateConstructorUsedError;
-  String get date => throw _privateConstructorUsedError;
+  String get description => throw _privateConstructorUsedError;
   String get temperatureMinimum => throw _privateConstructorUsedError;
   String get temperatureMaximum => throw _privateConstructorUsedError;
 
   @JsonKey(ignore: true)
-  $HomeWeatherItemStateCopyWith<HomeWeatherItemState> get copyWith =>
+  $WeatherFutureStateCopyWith<WeatherFutureState> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $HomeWeatherItemStateCopyWith<$Res> {
-  factory $HomeWeatherItemStateCopyWith(HomeWeatherItemState value,
-          $Res Function(HomeWeatherItemState) then) =
-      _$HomeWeatherItemStateCopyWithImpl<$Res, HomeWeatherItemState>;
+abstract class $WeatherFutureStateCopyWith<$Res> {
+  factory $WeatherFutureStateCopyWith(
+          WeatherFutureState value, $Res Function(WeatherFutureState) then) =
+      _$WeatherFutureStateCopyWithImpl<$Res, WeatherFutureState>;
   @useResult
   $Res call(
       {String condition,
-      String date,
+      String description,
       String temperatureMinimum,
       String temperatureMaximum});
 }
 
 /// @nodoc
-class _$HomeWeatherItemStateCopyWithImpl<$Res,
-        $Val extends HomeWeatherItemState>
-    implements $HomeWeatherItemStateCopyWith<$Res> {
-  _$HomeWeatherItemStateCopyWithImpl(this._value, this._then);
+class _$WeatherFutureStateCopyWithImpl<$Res, $Val extends WeatherFutureState>
+    implements $WeatherFutureStateCopyWith<$Res> {
+  _$WeatherFutureStateCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
   final $Val _value;
@@ -54,7 +53,7 @@ class _$HomeWeatherItemStateCopyWithImpl<$Res,
   @override
   $Res call({
     Object? condition = null,
-    Object? date = null,
+    Object? description = null,
     Object? temperatureMinimum = null,
     Object? temperatureMaximum = null,
   }) {
@@ -63,9 +62,9 @@ class _$HomeWeatherItemStateCopyWithImpl<$Res,
           ? _value.condition
           : condition // ignore: cast_nullable_to_non_nullable
               as String,
-      date: null == date
-          ? _value.date
-          : date // ignore: cast_nullable_to_non_nullable
+      description: null == description
+          ? _value.description
+          : description // ignore: cast_nullable_to_non_nullable
               as String,
       temperatureMinimum: null == temperatureMinimum
           ? _value.temperatureMinimum
@@ -80,44 +79,44 @@ class _$HomeWeatherItemStateCopyWithImpl<$Res,
 }
 
 /// @nodoc
-abstract class _$$_HomeWeatherItemStateCopyWith<$Res>
-    implements $HomeWeatherItemStateCopyWith<$Res> {
-  factory _$$_HomeWeatherItemStateCopyWith(_$_HomeWeatherItemState value,
-          $Res Function(_$_HomeWeatherItemState) then) =
-      __$$_HomeWeatherItemStateCopyWithImpl<$Res>;
+abstract class _$$__$WeatherFutureStateCopyWith<$Res>
+    implements $WeatherFutureStateCopyWith<$Res> {
+  factory _$$__$WeatherFutureStateCopyWith(_$__$WeatherFutureState value,
+          $Res Function(_$__$WeatherFutureState) then) =
+      __$$__$WeatherFutureStateCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
       {String condition,
-      String date,
+      String description,
       String temperatureMinimum,
       String temperatureMaximum});
 }
 
 /// @nodoc
-class __$$_HomeWeatherItemStateCopyWithImpl<$Res>
-    extends _$HomeWeatherItemStateCopyWithImpl<$Res, _$_HomeWeatherItemState>
-    implements _$$_HomeWeatherItemStateCopyWith<$Res> {
-  __$$_HomeWeatherItemStateCopyWithImpl(_$_HomeWeatherItemState _value,
-      $Res Function(_$_HomeWeatherItemState) _then)
+class __$$__$WeatherFutureStateCopyWithImpl<$Res>
+    extends _$WeatherFutureStateCopyWithImpl<$Res, _$__$WeatherFutureState>
+    implements _$$__$WeatherFutureStateCopyWith<$Res> {
+  __$$__$WeatherFutureStateCopyWithImpl(_$__$WeatherFutureState _value,
+      $Res Function(_$__$WeatherFutureState) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
   @override
   $Res call({
     Object? condition = null,
-    Object? date = null,
+    Object? description = null,
     Object? temperatureMinimum = null,
     Object? temperatureMaximum = null,
   }) {
-    return _then(_$_HomeWeatherItemState(
+    return _then(_$__$WeatherFutureState(
       condition: null == condition
           ? _value.condition
           : condition // ignore: cast_nullable_to_non_nullable
               as String,
-      date: null == date
-          ? _value.date
-          : date // ignore: cast_nullable_to_non_nullable
+      description: null == description
+          ? _value.description
+          : description // ignore: cast_nullable_to_non_nullable
               as String,
       temperatureMinimum: null == temperatureMinimum
           ? _value.temperatureMinimum
@@ -133,10 +132,10 @@ class __$$_HomeWeatherItemStateCopyWithImpl<$Res>
 
 /// @nodoc
 
-class _$_HomeWeatherItemState extends _HomeWeatherItemState {
-  const _$_HomeWeatherItemState(
+class _$__$WeatherFutureState extends __$WeatherFutureState {
+  const _$__$WeatherFutureState(
       {this.condition = "",
-      this.date = "",
+      this.description = "",
       this.temperatureMinimum = "",
       this.temperatureMaximum = ""})
       : super._();
@@ -146,7 +145,7 @@ class _$_HomeWeatherItemState extends _HomeWeatherItemState {
   final String condition;
   @override
   @JsonKey()
-  final String date;
+  final String description;
   @override
   @JsonKey()
   final String temperatureMinimum;
@@ -156,17 +155,18 @@ class _$_HomeWeatherItemState extends _HomeWeatherItemState {
 
   @override
   String toString() {
-    return 'HomeWeatherItemState(condition: $condition, date: $date, temperatureMinimum: $temperatureMinimum, temperatureMaximum: $temperatureMaximum)';
+    return 'WeatherFutureState(condition: $condition, description: $description, temperatureMinimum: $temperatureMinimum, temperatureMaximum: $temperatureMaximum)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_HomeWeatherItemState &&
+            other is _$__$WeatherFutureState &&
             (identical(other.condition, condition) ||
                 other.condition == condition) &&
-            (identical(other.date, date) || other.date == date) &&
+            (identical(other.description, description) ||
+                other.description == description) &&
             (identical(other.temperatureMinimum, temperatureMinimum) ||
                 other.temperatureMinimum == temperatureMinimum) &&
             (identical(other.temperatureMaximum, temperatureMaximum) ||
@@ -174,35 +174,35 @@ class _$_HomeWeatherItemState extends _HomeWeatherItemState {
   }
 
   @override
-  int get hashCode => Object.hash(
-      runtimeType, condition, date, temperatureMinimum, temperatureMaximum);
+  int get hashCode => Object.hash(runtimeType, condition, description,
+      temperatureMinimum, temperatureMaximum);
 
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_HomeWeatherItemStateCopyWith<_$_HomeWeatherItemState> get copyWith =>
-      __$$_HomeWeatherItemStateCopyWithImpl<_$_HomeWeatherItemState>(
+  _$$__$WeatherFutureStateCopyWith<_$__$WeatherFutureState> get copyWith =>
+      __$$__$WeatherFutureStateCopyWithImpl<_$__$WeatherFutureState>(
           this, _$identity);
 }
 
-abstract class _HomeWeatherItemState extends HomeWeatherItemState {
-  const factory _HomeWeatherItemState(
+abstract class __$WeatherFutureState extends WeatherFutureState {
+  const factory __$WeatherFutureState(
       {final String condition,
-      final String date,
+      final String description,
       final String temperatureMinimum,
-      final String temperatureMaximum}) = _$_HomeWeatherItemState;
-  const _HomeWeatherItemState._() : super._();
+      final String temperatureMaximum}) = _$__$WeatherFutureState;
+  const __$WeatherFutureState._() : super._();
 
   @override
   String get condition;
   @override
-  String get date;
+  String get description;
   @override
   String get temperatureMinimum;
   @override
   String get temperatureMaximum;
   @override
   @JsonKey(ignore: true)
-  _$$_HomeWeatherItemStateCopyWith<_$_HomeWeatherItemState> get copyWith =>
+  _$$__$WeatherFutureStateCopyWith<_$__$WeatherFutureState> get copyWith =>
       throw _privateConstructorUsedError;
 }

@@ -1,0 +1,1 @@
+import 'package:weatherdemo/feature/home_weather/domain/models_domain/weather_current_domain.dart';import 'package:weatherdemo/feature/home_weather/domain/models_domain/weather_future_domain.dart';class WeatherDomain{  final WeatherCurrentDomain? weatherCurrent;  final List<WeatherFutureDomain> weatherFutureLit;  WeatherDomain(this.weatherCurrent, this.weatherFutureLit);}

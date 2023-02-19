@@ -1,0 +1,1 @@
+import 'package:weatherdemo/core/utils/base/pair.dart';import 'package:weatherdemo/feature/home_weather/domain/models_domain/weather_domain.dart';abstract class FetchWeatherDataSource {  Future<Pair<WeatherDomain?, Exception?>> fetchWeather(String latitude, String longitude);}
