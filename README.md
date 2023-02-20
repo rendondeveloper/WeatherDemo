@@ -1,6 +1,6 @@
 # Weather Demo
 
-This is a app, to show the weather by the places selected.
+This a app, to show the weather by the places selected.
 
 This project was created using clean architecture + dependency injection.
 
@@ -20,7 +20,7 @@ This project was created using clean architecture + dependency injection.
 
 ## Steps after clone the project
 <list>
-  <p>1.- Clone de project <b>https://github.com/rendondeveloper/WeatherDemo.git</b></p> 
+  <p>1.- Clone the project <b>https://github.com/rendondeveloper/WeatherDemo.git</b></p> 
   <img src="https://user-images.githubusercontent.com/42813444/219974572-b7091209-2a62-4bc8-9e53-b4884bfb5db1.png" width="20%"/>  
   <p>3.- Execute on terminal of project <b>flutter gen-l10n</b> to generate strings.</p>
   <p>4.- Launch app</p>
